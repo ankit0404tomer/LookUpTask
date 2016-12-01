@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#ffffff"
+    android:weightSum="6">
+
+    <ImageView
+        android:id="@+id/img_category"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:padding="5dp" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txt_category_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:textColor="#e6353535"
+            android:textSize="16dp"
+            tools:text="Ankit Tomer" />
+
+        <TextView
+            android:id="@+id/txt_category_location"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:textColor="#de6c6a6a"
+            android:textSize="14dp"
+            tools:text="Ankit Tomer" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
